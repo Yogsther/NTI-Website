@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NTI - Umeå</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+
+            <!-- Socket.io -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+
+    
+</head>
+<body>
+    
+    <div id="header_div">
+    <img id="logo" src="nti_logga.png" onclick="darkMode()">
+        
+        <!-- Navbar -->
+        <div class="nav"><a href="#">Hem</a></div>
+        <div class="nav"><a href="#">Mer</a></div>
+        <div class="nav"><a href="#">Kontakt</a></div>
+        <div class="nav"><a href="#">Om</a></div>
+        
+
+        
+    </div>
+    
+    
+    
+    <div id="body_div">
+        
+        <div class="block">
+            <h4>Umeå</h4>
+            NTI Gymnasiet i Umeå är ett säkert val för elever intresserade av en framtid inom utvecklingsbranscher med fokus på Teknik/Ingenjörskap, IT, Media & Handel. Oavsett framtida yrkesval kommer människor med goda it-kunskaper ha en bättre möjlighet att snabbare anpassa sig i en föränderlig värld. Vårt mål är att vara bäst på orten!
+            
+        </div>
+        
+        <div class="block">
+            <h4>Umeå</h4>
+            NTI Gymnasiet i Umeå är ett säkert val för elever intresserade av en framtid inom utvecklingsbranscher med fokus på Teknik/Ingenjörskap, IT, Media & Handel. Oavsett framtida yrkesval kommer människor med goda it-kunskaper ha en bättre möjlighet att snabbare anpassa sig i en föränderlig värld. Vårt mål är att vara bäst på orten!
+            
+        </div>
+        
+        <div class="block">
+            <h4>Umeå</h4>
+            NTI Gymnasiet i Umeå är ett säkert val för elever intresserade av en framtid inom utvecklingsbranscher med fokus på Teknik/Ingenjörskap, IT, Media & Handel. Oavsett framtida yrkesval kommer människor med goda it-kunskaper ha en bättre möjlighet att snabbare anpassa sig i en föränderlig värld. Vårt mål är att vara bäst på orten!
+            
+        </div>
+        
+        
+        
+    </div>
+    
+    <script>
+        // Dark mode script
+        var darkModeEnabled = false;
+        
+        function darkMode(){
+        
+            if(darkModeEnabled){
+                // Disable dark mode
+                document.body.style.background = "#fff";  
+                darkModeEnabled = false;
+            } else {
+                // Enable dark mode
+                document.body.style.background = "#111";
+                darkModeEnabled = true;
+            }
+        }
+        
+        
+    </script>
+    
+    
+    
+   
+   
+</body>
+</html>
+
